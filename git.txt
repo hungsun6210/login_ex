@@ -23,3 +23,4 @@ $ git remote add origin https://github.com/hungsun6210/login_ex.git
 $ git branch -M master
 $ git push -u origin master
 $ git remote --> 추가한 원격 remote확인
+$ git push origin master --> 원격 저장소에 push함
