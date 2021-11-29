@@ -18,3 +18,8 @@ $ git branch -D my-idea --> branch 삭제
 ////////////////////////////////
 // remote repository 사용하기
 $ git status
+// 원격 remote 추가
+$ git remote add origin https://github.com/hungsun6210/login_ex.git
+$ git branch -M master
+$ git push -u origin master
+$ git remote --> 추가한 원격 remote확인
