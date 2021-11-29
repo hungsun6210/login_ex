@@ -31,5 +31,7 @@ $ git push origin master --> remote 로 push
 // git clone 만들기
 // 다른 디랙토리 만들기
 $ git clone https://github.com/hungsun6210/login_ex.git
-
+$ git fetch
+$ git status --> 원격 푸쉬 상태확인
+$ git pull origin master --> 원격에서 down받기
 
