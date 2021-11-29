@@ -1,0 +1,20 @@
+////////////////////////////////
+////////////////////////////////
+// project 에서 git 사용하기
+$ git init --> 초기 프로잭트를 git으로 하기
+$ git add -A --> 파일 만들로 스테이지로 올리기
+$ git commit -m "설명" --> git 으로 commit 하기
+$ git status --> git 현재 상태 보기
+$ git log --graph --all --decorate --> graph로 현재상태 보기
+$ git reset xxxxxx --hard --> 과거 xxxxxx지점으로 돌아가기(현재를 지우고 가기)
+$ git revert xxxxxx --> 과거로 되돌리기(현재를 지우지 않고 가기)
+$ git branch my-idea --> 새로운 브랜치 만들기
+$ git checkout my-idea --> my-idea 에서 my-idea branch로 이동하기
+$ git checkout master
+$ git merge my-idea --> merge할 브랜치로 이동후 
+$ git rebase my-idea --> log를 한줄로 정리( 재배치)
+$ git branch -D my-idea --> branch 삭제
+////////////////////////////////
+////////////////////////////////
+// remote repository 사용하기
+$ git status
